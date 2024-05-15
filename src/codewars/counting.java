@@ -13,15 +13,15 @@ public class counting {
         
     }
    // public class Counter { berhasil di wars
-  public int countSheeps(Boolean[] arrayOfSheeps) {
+    public int countSheeps(Boolean[] arrayOfSheeps) {
     // TODO May the force be with you
-    int count = 0;
-    for(Boolean sheep : arrayOfSheeps){
-      if(sheep!= null & sheep){
-        count++;
-      }
-    }
-    return count;
+        int count = 0;
+        for(Boolean sheep : arrayOfSheeps){
+            if(sheep!= null & sheep){
+                count++;
+            }
+        }
+        return count;
   }
 }
-}
+
